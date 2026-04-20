@@ -67,28 +67,6 @@ KhmerInternSphere/
 
 ---
 
-## 👥 Team & Role Division
-
-| Member | Role | Assigned Pages |
-|---|---|---|
-| Onimaru Mika | Project Lead & Home Page | `index.html`, shared CSS & layout |
-| Sen Sovanney | Internships Page & QA | `internships.html`, cross-browser testing |
-| Somang Sochannimol | Companies & About Pages | `companies.html`, `about.html` |
-| Ly Mengchou | Contact Page & Slide Designer | `contact.html`, presentation deck |
-
----
-
-## 🖥️ Presentation Slide Responsibilities
-
-| Member | Slides | Content |
-|---|---|---|
-| Onimaru Mika | 1–3 | Cover slide, project introduction, problem statement |
-| Sen Sovanney | 4–6 | Website structure overview, Internships page demo, table walkthrough |
-| Somang Sochannimol | 7–9 | Companies page demo, About page, mission & vision |
-| Ly Mengchou | 10–12 | Contact page demo, tech stack summary, conclusion & Q&A |
-
----
-
 ## 🛠️ Tech Stack
 
 | Technology | Usage |
