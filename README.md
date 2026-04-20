@@ -25,6 +25,8 @@ KhmerInternSphere/
 ├── contact.html        # Contact form
 ├── css/
 │   └── style.css       # Shared external stylesheet
+├── js/
+│   └── script.js       # Shared JavaScript file
 └── assets/             # Images, posters, and media
 ```
 
@@ -73,7 +75,24 @@ KhmerInternSphere/
 |---|---|
 | HTML5 | Page structure and semantic elements |
 | CSS3 | Shared external stylesheet, responsive design |
-| No JavaScript frameworks | Vanilla HTML/CSS only |
+| JavaScript (ES6+) | DOM manipulation, interactivity, animations — no external frameworks |
+
+---
+
+## ⚙️ JavaScript Features
+
+All interactivity is handled through a single shared `script.js` file using **vanilla JavaScript (ES6+)**. No external libraries or frameworks are used.
+
+| Feature | Description |
+|---|---|
+| Logo auto-slider | Clones logo items and animates them infinitely using `requestAnimationFrame` |
+| Scroll reveal | Detects section visibility on scroll and fades/slides them into view |
+| Internship card rendering | Dynamically generates internship cards from a local data array |
+| Search & filter | Filters internship listings by category chip or keyword (title, company, location) |
+| Apply button | Triggers a confirmation alert with internship and company details |
+| Hamburger menu | Toggles mobile nav open/close with ARIA `aria-expanded` support |
+| Active nav link | Automatically highlights the current page link based on `window.location.pathname` |
+| Contact form | Validates required fields and shows a thank-you overlay on successful submission |
 
 ---
 
@@ -89,7 +108,7 @@ KhmerInternSphere/
 
 ## 🚀 Getting Started
 
-No build tools or dependencies required. Simply clone the repository and open `index.html` in your browser.
+No build tools or dependencies required. Simply clone the repository and open `index.html` in your browser. JavaScript runs natively in the browser — no installation needed.
 
 ```bash
 git clone https://github.com/your-username/khmer-internsphere.git
