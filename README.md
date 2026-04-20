@@ -24,11 +24,18 @@ KhmerInternSphere/
 ├── about.html          # About the platform
 ├── contact.html        # Contact form
 ├── css/
-│   └── style.css       # Shared external stylesheet
+│   └── about.css
+|   └── home.css      
+|   └── internship.css
+|   └── company.css
+|   └── contact.css
+|   └── style.css 
 ├── js/
-│   └── script.js       # Shared JavaScript file
-└── assets/             # Images, posters, and media
-```
+│   └── script.js       
+|── assets/
+|   └── favicon.ico             
+|── img/
+    └── logo.png
 
 ---
 
